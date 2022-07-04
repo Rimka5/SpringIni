@@ -5,6 +5,7 @@ import jakarta.validation.constraints.NotNull;
 import org.springframework.lang.NonNull;
 
 @Entity
+@Table(name = "sonneur")
 public class Sonneur implements Musicien{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

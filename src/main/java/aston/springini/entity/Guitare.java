@@ -10,6 +10,7 @@ import org.springframework.stereotype.Component;
  * @author roumaissa
  */
 @Entity
+@Table(name = "guitare")
 public class Guitare implements Instrument{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

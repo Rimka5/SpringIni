@@ -7,6 +7,7 @@ import jakarta.persistence.*;
  * @author roumaissa
  */
 @Entity
+@Table(name = "piano")
 public class Piano implements Instrument{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
